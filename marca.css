@@ -81,6 +81,11 @@ font-family: 'Roboto Slab', serif;
         width: 40px;
     }
 
+    .img-portada img{
+        width: 270px;
+        height: 270px;
+    }
+
 
     .redes div img{
         width: 30px;
@@ -331,6 +336,10 @@ font-family: 'Roboto Slab', serif;
     .logo img{
         width: 40px;
     }
+    .img-portada img{
+        width: 320px;
+        height: 320px;
+    }
 
 
     .redes div img{
@@ -572,6 +581,11 @@ font-family: 'Roboto Slab', serif;
 
     .logo img{
         width: 40px;
+    }
+
+    .img-portada img{
+        width: 380px;
+        height: 380px;
     }
 
 
