@@ -32,6 +32,7 @@ p{
 
 hr{
     width: 90%;
+    border-color:white;
     margin: 0 auto;
 }
 
@@ -303,6 +304,11 @@ font-family: 'Roboto Slab', serif;
         width: 40px;
     }
 
+    .derechos{
+        font-size: 20px;
+        color: var(--color-secundario);
+    }
+
 
 
 
@@ -557,6 +563,11 @@ font-family: 'Roboto Slab', serif;
     .redes-footer div img{
         width: 40px;
     }
+
+    .derechos{
+        font-size: 20px;
+        color: var(--color-secundario);
+    }
 }
 
 @media (min-width: 1000px){
@@ -733,7 +744,7 @@ font-family: 'Roboto Slab', serif;
 
 .section-two{
     width: 90%;
-    height: 100vh;
+    height: auto;
     margin: 0 auto;
     padding: 30px 0;
   }
@@ -792,7 +803,7 @@ order: 1;
 
 .section-three{
     width: 90%;
-    height: 110vh;
+    height: auto;
     margin: 0 auto;
     padding: 30px 0;
     display: flex;
@@ -847,5 +858,10 @@ order: 1;
 
     .redes-footer div img{
         width: 40px;
+    }
+
+    .derechos{
+        font-size: 20px;
+        color: var(--color-secundario);
     }
 }
