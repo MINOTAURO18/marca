@@ -34,8 +34,7 @@ p{
 
 hr{
     width: 90%;
-    border-color:var(--color-title);
-    border-style: groove;
+    border-color:var(--color-secundario);
     margin: 0 auto;
 }
 
