@@ -29,6 +29,11 @@ p{
     text-align: justify;
 }
 
+hr{
+    width: 90%;
+    margin: 0 auto;
+}
+
 .eslogan{
     font-family: 'Covered By Your Grace', cursive;
 font-family: 'Roboto Slab', serif;
@@ -758,7 +763,7 @@ order: 1;
 
 .section-three{
     width: 90%;
-    height: auto;
+    height: 110vh;
     margin: 0 auto;
     padding: 30px 0;
     display: flex;
