@@ -19,6 +19,7 @@ html{
 .jamy,h1{
     color: var(--color-title);
     text-align: center;
+    cursor: default;
 }
 
 .titulo{
@@ -28,11 +29,13 @@ p{
     text-align: center;
     font-weight: 500;
     text-align: center;
+    cursor: default;
 }
 
 hr{
     width: 90%;
-    border-color:white;
+    border-color:var(--color-title);
+    border-style: groove;
     margin: 0 auto;
 }
 
@@ -49,6 +52,10 @@ font-family: 'Roboto Slab', serif;
 
 
 @media (max-width:600px){
+
+    p{
+        text-align: center;
+    }
 
 
     h1{
@@ -301,7 +308,7 @@ font-family: 'Roboto Slab', serif;
     }
 
     .redes-footer div img{
-        width: 40px;
+        width: 35px;
     }
 
     .derechos{
@@ -338,7 +345,7 @@ font-family: 'Roboto Slab', serif;
         width: 100%;
         height: 100%;
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: auto auto auto;
         place-items: center;
         align-content: center;
     }
@@ -500,6 +507,13 @@ font-family: 'Roboto Slab', serif;
     align-items: center;    
   }
 
+  .section, .section-2, .section-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .section-two .parrafo, .imagen-two{
     margin-bottom: 30px;
   }
@@ -570,7 +584,7 @@ font-family: 'Roboto Slab', serif;
     }
 }
 
-@media (min-width: 1000px){
+@media (min-width: 900px){
 
     p{
         font-size: 23px;
@@ -589,7 +603,7 @@ font-family: 'Roboto Slab', serif;
         width: 100%;
         height: 100%;
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: auto auto auto;
         place-items: center;
         align-content: center;
     }
