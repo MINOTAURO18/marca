@@ -38,6 +38,10 @@ hr{
     margin: 0 auto;
 }
 
+span{
+    color: var(--color-title);
+}
+
 
 .jamy-menu a img{
     background-color: var(--color-secundario);
@@ -325,7 +329,7 @@ font-family: 'Roboto Slab', serif;
     }
 
     .redes-footer div img{
-        width: 35px;
+        width: 30px;
     }
 
     .derechos{
