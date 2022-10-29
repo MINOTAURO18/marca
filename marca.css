@@ -47,6 +47,10 @@ font-family: 'Roboto Slab', serif;
     filter: invert(100%) sepia(0%) saturate(7437%) hue-rotate(10deg) brightness(88%) contrast(122%);
 } 
 
+.nav .logo a img{
+    filter: invert(43%) sepia(60%) saturate(791%) hue-rotate(152deg) brightness(101%) contrast(91%);
+}
+
 
 
 
@@ -76,7 +80,7 @@ font-family: 'Roboto Slab', serif;
         width: 100%;
         height: 100%;
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
         place-items: center;
         align-content: center;
     }
@@ -344,7 +348,7 @@ font-family: 'Roboto Slab', serif;
         width: 100%;
         height: 100%;
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
         place-items: center;
         align-content: center;
     }
@@ -602,7 +606,7 @@ font-family: 'Roboto Slab', serif;
         width: 100%;
         height: 100%;
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
         place-items: center;
         align-content: center;
     }
