@@ -30,6 +30,10 @@ font-family: 'Source Serif Pro', serif;
 .titulo{
     color: var(--color-secundario);
 }
+
+.derechos{
+    cursor: default;
+}
 p{
     text-align: center;
     font-weight: 500;
