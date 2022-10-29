@@ -769,9 +769,12 @@ font-family: 'Roboto Slab', serif;
 
     100%{
         bottom: 100vh;
-        opacity: .2;
+        opacity: .1;
     }
  }
+
+
+
 
 .section-two{
     width: 90%;
