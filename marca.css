@@ -12,7 +12,12 @@
 
 html{
     background-color: var(--color-primario);
+   
     font-family: 'Roboto Slob', serif;
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Roboto Slab', serif;
+font-family: 'Source Serif Pro', serif;
     scroll-behavior: smooth;
 }
 
@@ -41,6 +46,8 @@ hr{
 span{
     color: var(--color-title);
 }
+
+
 
 
 .jamy-menu a img{
