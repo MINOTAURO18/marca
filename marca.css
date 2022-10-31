@@ -5,7 +5,7 @@
 :root{
     --color-primario:rgb(251, 249, 249);
     --color-secundario:#fff;
-    --color-parrafos:#000;
+    --color-parrafos:#000; 
     --color-title:rgb(15, 149, 198);
 
 }
@@ -79,6 +79,7 @@ font-family: 'Roboto Slab', serif;
 
 
 
+
 @media (max-width:600px){
 
     p{
@@ -99,6 +100,8 @@ font-family: 'Roboto Slab', serif;
         position: fixed;
         /* border-top: 1px solid black; */
         z-index: 9;
+        box-shadow:-1px -1px 3px rgba(0, 0, 0, 0.2) ;
+
     }
 
     .nav{
@@ -371,6 +374,8 @@ font-family: 'Roboto Slab', serif;
         bottom: 0;
         position: fixed;
         z-index: 9;
+        box-shadow:-1px -1px 3px rgba(0, 0, 0, 0.2) ;
+
     }
 
     .nav{
@@ -617,7 +622,7 @@ font-family: 'Roboto Slab', serif;
 }
 
 @media (min-width: 900px){
-
+    
     p{
         font-size: 23px;
     }
@@ -629,6 +634,8 @@ font-family: 'Roboto Slab', serif;
         top: 0;
         position: fixed;
         z-index: 9;
+        box-shadow:1px 1px 5px rgba(0, 0, 0, 0.2) ;
+        
     }
 
     .nav{
