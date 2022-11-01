@@ -41,6 +41,33 @@ p{
     cursor: default;
 }
 
+.maquina{
+    background-color: var(--color-title);
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.maquina::after{
+    content: "";
+    background-color: var(--color-title);
+    width: 100%;
+    height: 100%;
+    right: 0;
+    position: absolute;
+    animation: efecto 2s infinite alternate steps(18);
+    -webkit-animation: efecto 2s infinite alternate steps(18);
+}
+
+@keyframes efecto {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+}
+
 hr{
     width: 90%;
     border-color:var(--color-secundario);
@@ -630,7 +657,7 @@ font-family: 'Roboto Slab', serif;
         background-color: var(--color-secundario);
         width: 100%;
         height: 10vh;
-        position: absolute;
+        position: absolute; 
         top: 0;
         position: fixed;
         z-index: 9;
