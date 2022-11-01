@@ -10,12 +10,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Covered+By+Your+Grace&family=Roboto+Slab:wght@500&family=Source+Serif+Pro:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="marca.css">
+    <link rel="stylesheet" href="marca-dark.css">
+    
 </head>
-<body>
+<body class="body">
 
     <header class="nav-menu">           
-        <nav class="nav">
+      <nav class="nav">
+          <div class="jamy-menu">
+            <a href="index.html#section-one"><img src="images/ayer era tarde.png" alt=""></a>
+          </div>
             <div class="logo">
                 <a href="index.html#section-two"><img src="images/que-es.svg" alt="logo JAMY"></a>
             </div>
@@ -23,9 +29,6 @@
               <a href="index.html#section-three"><img src="images/productos-servicios.svg" alt=""></a>
             </div>
 
-            <div class="jamy-menu">
-              <a href="index.html#section-one"><img src="images/ayer era tarde.png" alt=""></a>
-            </div>
 
 
             <div class="logo">
@@ -34,6 +37,11 @@
 
             <div class="logo">
               <a href="index.html#pie-pagina"><img src="images/contact.svg" alt="logo JAMY"></a>
+          </div>
+          <div>
+            <button class="switchdark active" id="switch">
+              <span class="span"><i class='bx bxs-moon'></i></span>
+              <span class="span"><i class='bx bxs-sun'></i></span>
           </div>
         </nav>
 
@@ -51,7 +59,7 @@
         <div class="img-portada">
           <img src="images/ayer era tarde1.png" alt="logo jamy">
           <p>
-            <span class="maquina" style="color:white ;">ayer era tarde  .</span>
+            <span class="maquina" style="color:white ;">ayer era tarde .</span>
           </p>
         </div>
 
@@ -146,6 +154,8 @@
 
         
       </footer>
+
+      <script src="marca.js"></script>
     
 </body>
 </html>
