@@ -63,7 +63,6 @@ body{
     color: black;
 }
 
-
 body.dark .nav-menu{
     background-color: rgb(18, 17, 17);
     color:#fff;
@@ -74,7 +73,7 @@ body.dark .section-one{
 }
 
 body.dark .section-two{
-    background-color: rgb(18, 17, 17);
+    background-color: rgb(28, 26, 26);
     color: #fff;
 }
 
@@ -84,7 +83,7 @@ body.dark .section-three{
 }
 
 body.dark .section-four{
-    background-color: rgb(18, 17, 17);
+    background-color: rgb(28, 26, 26);
     color: #fff;
 }
 
