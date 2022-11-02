@@ -64,12 +64,12 @@ body{
 }
 
 body.dark .nav-menu{
-    background-color: rgb(18, 17, 17);
+    background-color: rgb(19, 18, 18);
     color:#fff;
 }
 
 body.dark .section-one{
-    background-color: rgb(18, 17, 17);
+    background-color: rgb(28, 26, 26);
 }
 
 body.dark .section-two{
@@ -78,7 +78,7 @@ body.dark .section-two{
 }
 
 body.dark .section-three{
-    background-color: rgb(18, 17, 17);
+    background-color: rgb(28, 26, 26);
     color: #fff;
 }
 
@@ -92,15 +92,15 @@ body.dark hr{
 }
 
 body.dark .redes-footer{
-    background-color: rgb(18, 17, 17);
+    background-color:  rgb(19, 18, 18);
 }
 
 body.dark .maquina{
-    background-color: rgb(18, 17, 17);
+    background-color:  rgb(28, 26, 26);
 }
 
 body.dark .maquina::after{
-    background-color: rgb(18, 17, 17);
+    background-color:  rgb(28, 26, 26);
 
 }
 
