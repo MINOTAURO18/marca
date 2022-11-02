@@ -116,22 +116,22 @@ font-family: 'Roboto Slab', serif;
 
 .reveal{
     position: relative;
-    transform: translateY(70px);
+    transform: translateX(30vw);
     opacity: 0;
-    -webkit-transform: translateY(70px);
-    -moz-transform: translateY(70px);
-    -ms-transform: translateY(70px);
-    -o-transform: translateY(70px);
+    -webkit-transform: translateX(30vw);
+    -moz-transform: translateX(30vw);
+    -ms-transform: translateX(30vw);
+    -o-transform: translateX(30vw);
 }
 
 .reveal.active{
-    transform: translateY(0px);
+    transform: translateX(0vw);
     opacity: 1;
     transition: all 1s ease;
-    -webkit-transform: translateY(0px);
-    -moz-transform: translateY(0px);
-    -ms-transform: translateY(0px);
-    -o-transform: translateY(0px);
+    -webkit-transform: translateX(0vw);
+    -moz-transform: translateX(0vw);
+    -ms-transform: translateX(0vw);
+    -o-transform: translateX(0vw);
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -ms-transition: all 1s ease;

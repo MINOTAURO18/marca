@@ -63,9 +63,6 @@ body{
     color: black;
 }
 
-body.dark html{
-    background-color: black;
-}
 
 body.dark .nav-menu{
     background-color: rgb(18, 17, 17);
