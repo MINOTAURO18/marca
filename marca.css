@@ -127,15 +127,15 @@ font-family: 'Roboto Slab', serif;
 .reveal.active{
     transform: translateY(0vw);
     opacity: 1;
-    transition: all .7s ease;
+    transition: all .5s ease;
     -webkit-transform: translateY(0vw);
     -moz-transform: translateY(0vw);
     -ms-transform: translateY(0vw);
     -o-transform: translateY(0vw);
-    -webkit-transition: all .7s ease;
-    -moz-transition: all .7s ease;
-    -ms-transition: all .7s ease;
-    -o-transition: all .7s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
 }
 
 
