@@ -62,6 +62,10 @@ p{
     cursor: default;
 }
 
+.maquina-p{
+    text-align: center;
+}
+
 .maquina{
     background-color: var(--color-title);
     position: relative;
