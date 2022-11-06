@@ -473,6 +473,8 @@ font-family: 'Roboto Slab', serif;
 
 
 
+
+
 }
 
 
@@ -481,6 +483,8 @@ font-family: 'Roboto Slab', serif;
 
     p{
         font-size: 20px;
+        width: 90%;
+        margin: 0 auto;
     }
     .nav-menu{
         background-color: var(--color-secundario);
@@ -735,12 +739,49 @@ font-family: 'Roboto Slab', serif;
         font-size: 20px;
         color: var(--color-secundario);
     }
+
+    .parrafo-ultimo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-four a img{
+        display:block;
+        width: 100px;
+        height: 100px;
+        margin-top: 50px;
+        border: 2px solid var(--color-title);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
+
+    .div-four{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .div-four div{
+        transition: all 400ms ease;
+    }
+
+    .div-four div:hover{
+        transform: translateY(-3%);
+        -webkit-transform: translateY(-3%);
+        -moz-transform: translateY(-3%);
+        -ms-transform: translateY(-3%);
+        -o-transform: translateY(-3%);
+}
 }
 
 @media (min-width: 900px){
 
     p{
-        width: 90%;
+        width: 80%;
         margin:0 auto; 
         font-size: 20px;
     }
