@@ -64,6 +64,10 @@ body{
     color: black;
 }
 
+body.dark{
+    background-color:rgb(30, 26, 26) ;
+}
+
 body.dark .nav-menu{
     background-color: rgb(19, 18, 18);
     color:#fff;
@@ -87,6 +91,25 @@ body.dark .section-four{
     background-color: rgb(28, 26, 26);
     color: #fff;
 }
+
+body.dark .section-five{
+    background-color: rgb(28, 26, 26);
+    color: #fff;
+}
+
+body.dark .footer{
+    background-color: rgb(28, 26, 26);
+    color: #fff;
+
+}
+
+body.dark .container-contacto{
+    background-color:rgb(28, 26, 26) ;
+    color: #fff;
+    box-shadow: 1px 3px 10px 1px rgb(28, 26, 26);
+}
+
+
 
 body.dark hr{
     display: none;
